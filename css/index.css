@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.hero img {
+    margin-top: 150px;
+    width: 100vw;
+    height: 81.85dvh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hero .contain {
+    position: absolute;
+    top: 40%;
+    padding: 0px 100px;
+    z-index: 1;
+}
+
+.hero .contain h1 {
+    font-size: 96px;
+    color: #8C6239;
+}
+
+.hero .contain p {
+    font-size: 32px;
+    color: #8C6239;
+}
